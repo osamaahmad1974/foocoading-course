@@ -1,1 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:rgb(226, 248, 203);
+}
+.page{
+    display: grid;
+    grid-template-columns: 30% 70%;
+   }
+.right-side{
+   
+    height: 100%;
+    background-color: rgb(142, 142, 238);
+}
+.my-picture{
+    margin-left: 13%;
+    margin-top: 13%;
+    margin-bottom: 3%;
+    width: 70%;
+    height: auto;
+    border-radius: 10px;
+}
+.line{
+    margin-bottom: 20%;
+}
+.name{
+    color: rgb(35, 9, 153);
+    text-align: center;
+    font-size: 1.2vw;
+    
+    
+    
+}
+.text1-left{
+    text-align: center;
+    
+    font-size: 1.5vw;
+    margin-bottom: 5%;
+}
+.text2-left{
+    margin-left: 5%;
+    font-size: 1.5vw;
+    margin-bottom: 25%;
+}
+.myname1{
+    text-align: center;
+    margin-top: 10%;
+    font-size: 2.8vw;
+    margin-bottom: 2%;
+}
+.text1-right{
+    margin-left: 45%;
+    font-size: 1.5vw;
+    margin-top: 1%; 
+    margin-bottom: 13.55%;
+}
+.text2-right{
+    margin-left: 1%;
+    font-size: 1.5vw;
 
+}
+.arr{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+.text3-right{
+    margin-left: 10%;
+    font-size: 1.5vw;
+}
+.end{
+    margin: 5%;
+    background-color: rgb(212, 29, 29);
+}
