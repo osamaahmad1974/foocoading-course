@@ -1,0 +1,11 @@
+/mnt/c/Users/osama/Desktop$ mkdir -p FooCafe && touch FooCafe/blank.txt
+/mnt/c/Users/osama/Desktop$ for x in {1..5}; do echo "Hello " >> greetings.txt;done
+/mnt/c/Users/osama/Desktop$ for i in {1,2,3,4,5}; do cp greetings.txt "$i".txt; done
+/mnt/c/Users/osama/Desktop$ echo "cat" >> pets.txt
+/mnt/c/Users/osama/Desktop$ echo "dog" >> pets.txt
+/mnt/c/Users/osama/Desktop$ echo "hamster" >> pets.txt
+/mnt/c/Users/osama/Desktop$ echo "cat" >> commands.txt
+/mnt/c/Users/osama/Desktop$ echo "ls" >> commands.txt
+/mnt/c/Users/osama/Desktop$ echo "pwd" >> commands.txt
+/mnt/c/Users/osama/Desktop$ comm -3 pets.txt commands.txt > lovelyCommands.txt
+/mnt/c/Users/osama/Desktop$
