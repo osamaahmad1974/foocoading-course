@@ -1,1 +1,124 @@
+* {
+    box-sizing: border-box;
+}
 
+body{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #dfdcd5;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6689a1;
+    position: relative;
+}
+
+.logo {
+    padding:1rem;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.desktop-menu .menu {
+    list-style: none;
+}
+
+.desktop-menu .menu-item {
+    display: inline-block;
+    padding-right: 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.desktop-menu {
+    display: none;
+}
+
+.hidden {
+display: none;
+}
+
+.toggler {
+    color:white;
+    font-size: 2rem;
+    margin-right: 1rem;
+    cursor: pointer;
+}
+
+.mobile-menu {
+    list-style: none;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    width: 100%;
+    z-index: 10;
+    background-color:#b4b8c5;
+}
+
+.mobile-menu-item {
+text-transform: uppercase;
+padding: 1rem;
+text-align: center;
+}
+
+.showcase {
+margin: 1rem;
+}
+.showcase h3 {
+    text-align: center;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    margin: 1rem;
+    position: relative;
+}
+.card:hover .card-content{
+opacity: 1;
+visibility: visible;
+}
+.card-header {
+    width: 300px;
+}
+img {
+    width: 100%;
+    max-width: 100%;;
+}
+
+.card-content {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    padding: 0.2rem;
+    transition: opacity 0.5s;
+}
+
+
+@media (min-width:768px){
+.toggler {
+    display: none;
+}
+.desktop-menu {
+    display: block;
+}
+}
